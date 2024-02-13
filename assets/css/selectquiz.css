@@ -1,0 +1,42 @@
+
+:root {
+    --color_orange: #d35e2e;
+    --color_white: #d2dff1;
+    --color_blue: #065989;
+    --color_lightblue: #6bb2b6;
+    --color_gray: #adb6b7;
+}
+
+body {
+    background-color: var(--color_gray );
+}
+
+.title{
+    background-image: linear-gradient(135deg, var(--color_lightblue) , var(--color_blue));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+}
+
+#quiz_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.select {
+
+}
+
+
+
+footer{
+    font-size: 14px;
+    color: var(--color_white);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
