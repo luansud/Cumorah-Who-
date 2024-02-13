@@ -7,3 +7,21 @@
     --color_gray: #adb6b7;
 }
 
+body {
+    background-image: linear-gradient(135deg, var(--color_lightblue) , var(--color_blue));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#main {
+    background-color: var(--color_white);
+    width: 500px;
+    height: 250px;
+    box-shadow: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
