@@ -28,11 +28,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 40px;
 }
 
 #title{
     font-size: 50px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#title_img {
+    width: 70%;
 }
 
 #username, #password {
@@ -66,9 +73,8 @@ input{
 
 
 
-
-
 footer{
+    font-size: 14px;
     color: var(--color_white);
     position: absolute;
     bottom: 0;
