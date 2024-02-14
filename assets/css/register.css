@@ -25,7 +25,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#loginScreen {
+#registerScreen {
     background-color: var(--color_white);
     width: 600px;
     height: 350px;
@@ -53,19 +53,19 @@ body {
     
 }
 input{
+    margin: 5px;
     border: none;
     outline: none;
     width: 200px;
     height: 25px;
     font-size: 12px;
     padding-left: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
 }
 
-#forgot_password {
-    color: var(--color_blue);
-}
-
-#login_register {
+#return_register {
+    padding-top: 10px;
     display: flex;
 }
 
